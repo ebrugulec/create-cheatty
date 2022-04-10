@@ -1,0 +1,30 @@
+{
+  "name": "create-cheatty",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js init"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebrugulec/create-cheatty.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ebrugulec/create-cheatty/issues"
+  },
+  "homepage": "https://github.com/ebrugulec/create-cheatty#readme",
+  "bin": "./bin.js",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "figlet": "^1.5.2",
+    "path": "^0.12.7",
+    "shelljs": "^0.8.5"
+  }
+}
